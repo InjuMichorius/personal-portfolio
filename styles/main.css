@@ -1,11 +1,13 @@
 @font-face {
-    font-family: 'Inju';
-    src: url('../fonts/ClashGrotesk-Regular.woff2') format('woff2'),  /* Modern Browsers */
-         url('../fonts/ClashGrotesk-Regular.woff') format('woff'),    /* Older Browsers */
-         url('../fonts/ClashGrotesk-Regular.ttf') format('truetype');  /* Legacy Browsers */
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: "Inju";
+  src: url("../fonts/ClashGrotesk-Regular.woff2") format("woff2"),
+    /* Modern Browsers */ url("../fonts/ClashGrotesk-Regular.woff")
+      format("woff"),
+    /* Older Browsers */ url("../fonts/ClashGrotesk-Regular.ttf")
+      format("truetype"); /* Legacy Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
 
 * {
   padding: 0;
@@ -16,13 +18,25 @@
 }
 
 :root {
-    --accent: #cf0;
-    --white: #ffffff;
-    --font: 'Inju';
+  --accent: #cf0;
+  --white: #ffffff;
+  --font: "Inju";
 }
 
-body, html {
+body,
+html {
   color: white;
   background-color: black;
   scroll-behavior: smooth;
 }
+
+h1 {
+  font-size: 90px;
+  font-family: var(--font);
+}
+
+p {
+  line-height: 28px;
+  font-size: 20px;
+}
+
