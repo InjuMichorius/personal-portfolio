@@ -1,0 +1,58 @@
+.projects {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 50px;
+  scroll-margin-top: 140px;
+}
+
+.project-container {
+  color: white;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.project-container p {
+  margin: 10px 0;
+  font-family: var(--font);
+  opacity: 0.5;
+}
+
+.project-container h3 {
+  font-family: var(--font);
+  font-size: 40px;
+  transform: translateX(-50px);
+  transition: all 0.3s ease-in-out;
+}
+
+.project-container h3::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-image: url("../icons/arrow.svg");
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 20px;
+}
+
+.project-container:hover h3 {
+  transform: translateX(0px);
+}
+
+.project-container:hover img {
+  border-radius: 0;
+}
+
+img {
+  width: 100%;
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+@media only screen and (max-width: 768px) {
+  .projects {
+    grid-template-columns: 1fr;
+    padding: 0 35px;
+  }
+}

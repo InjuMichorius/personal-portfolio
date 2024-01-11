@@ -1,0 +1,27 @@
+footer {
+    padding: 0 50px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h4 {
+    font-family: var(--font);
+    color: rgba(255, 255, 255, .5);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.footer-items {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    text-align: right;
+    list-style: none;
+}
+
+footer a {
+    font-family: var(--font);
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
