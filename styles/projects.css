@@ -40,12 +40,13 @@
   transform: translateX(0px);
 }
 
-.project-container:hover img {
+.project-container:hover img, .project-container:hover video {
   border-radius: 0;
 }
 
-img {
+img, video {
   width: 100%;
+  height: auto;
   border-radius: 15px;
   transition: all 0.3s ease-in-out;
 }
