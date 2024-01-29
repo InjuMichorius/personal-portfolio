@@ -85,8 +85,9 @@ main {
   padding: 0 50px;
 }
 
-main img {
+main img, main .project-video {
   width: 100%;
+  height: auto;
 }
 
 main .content {
@@ -110,6 +111,16 @@ main .content {
 
 .row-triple-image {
   grid-template-columns: repeat(3, 1fr);
+}
+
+figure {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+figure figcaption, .row-triple-image figcaption {
+  position: absolute;
+  bottom: -20px;
 }
 
 @media only screen and (max-width: 1000px) {
