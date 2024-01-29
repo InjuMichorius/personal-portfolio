@@ -55,8 +55,8 @@
 }
 
 .primary:hover {
-  border-color: #cf0;
-  box-shadow: 0 0 0px #cf0, 0 0 10px #cf0, 0 0 1px #cf0;
+  border-color: var(--accent);
+  box-shadow: 0 0 0px var(--accent), 0 0 10px var(--accent), 0 0 1px var(--accent);
 }
 
 .secondary {
