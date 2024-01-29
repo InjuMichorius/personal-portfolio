@@ -44,6 +44,7 @@
   cursor: pointer;
   text-align: center;
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
 }
 
 .primary {
@@ -53,10 +54,20 @@
   background-color: rgb(20, 25, 0);
 }
 
+.primary:hover {
+  border-color: #cf0;
+  box-shadow: 0 0 0px #cf0, 0 0 10px #cf0, 0 0 1px #cf0;
+}
+
 .secondary {
   background-color: rgb(13, 13, 13);
   border: 1px solid rgba(255, 255, 255, 0.25);
   color: white;
+}
+
+.secondary:hover {
+  border-color: #fff;
+  box-shadow: 0 0 0px #131313, 0 0 10px #131313, 0 0 1px #131313;
 }
 
 @media only screen and (max-width: 1000px) {
