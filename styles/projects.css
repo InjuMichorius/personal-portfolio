@@ -38,6 +38,7 @@
 
 .project-container:hover h3 {
   transform: translateX(0px);
+  color: var(--accent);
 }
 
 .project-container:hover img, .project-container:hover video {
