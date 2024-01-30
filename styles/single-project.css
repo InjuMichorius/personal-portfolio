@@ -155,6 +155,12 @@ figure.row-triple-image {
 }
 
 @media only screen and (max-width: 768px) {
+  .hero {
+    padding: 140px 15px 35px;
+  }
+  main {
+    padding: 0 15px;
+  }
   .row-double-image {
     grid-template-columns: 1fr;
   }

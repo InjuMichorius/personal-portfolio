@@ -73,7 +73,7 @@ nav {
 @media only screen and (max-width: 768px) {
   #header {
     height: 110px;
-    padding: 0 30px;
+    padding: 0 15px;
   }
 
   .menu-items {

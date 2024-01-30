@@ -30,3 +30,11 @@ footer a {
 footer a:hover {
     color: var(--accent);
 }
+
+@media only screen and (max-width: 768px) {
+    footer {
+        padding: 0 15px 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
