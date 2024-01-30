@@ -162,4 +162,7 @@ figure.row-triple-image {
   .row-triple-image {
     grid-template-columns: 1fr;
   }
+  .label {
+    font-size: 18px;
+  }
 }
