@@ -131,6 +131,12 @@ figure.row-triple-image {
   padding-bottom: 50px;
 }
 
+.project-paragraph a, .project-paragraph a:visited {
+  color: var(--white);
+  font-style: italic;
+  text-decoration: none;
+}
+
 .line {
   width: 100%;
   border-top: 1px solid rgba(255, 255, 255, 0.5);
