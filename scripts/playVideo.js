@@ -13,6 +13,7 @@ videoElements.forEach(function (video) {
     this.currentTime = 0; // Set the playback time to the beginning
     this.pause();
   });
+
   // Check if the screen width is less than 768px (assuming you want autoplay on smaller screens)
   if (window.innerWidth < 768) {
     video.autoplay = true;

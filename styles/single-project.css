@@ -25,6 +25,14 @@ p {
   max-width: 700px;
 }
 
+.project-paragraph, i {
+  opacity: .5;
+}
+
+.text-container {
+  margin: 50px 0;
+}
+
 .meta-data {
   display: flex;
   gap: 50px;
@@ -33,7 +41,7 @@ p {
   align-items: center;
 }
 
-.left {
+.meta-data .left {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
@@ -49,7 +57,7 @@ p {
   border-radius: 100px;
 }
 
-.right {
+.meta-data .right {
   width: 300px;
 }
 
@@ -113,14 +121,21 @@ main .content {
   grid-template-columns: repeat(3, 1fr);
 }
 
-figure {
+figure figcaption, .row-triple-image figcaption {
+  position: absolute;
+  bottom: 0;
+}
+
+figure.row-triple-image {
   position: relative;
   padding-bottom: 50px;
 }
 
-figure figcaption, .row-triple-image figcaption {
-  position: absolute;
-  bottom: -20px;
+.line {
+  width: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 @media only screen and (max-width: 1000px) {
