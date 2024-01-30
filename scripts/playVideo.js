@@ -1,5 +1,5 @@
 // Get all video elements on the page
-var videoElements = document.querySelectorAll("video");
+const videoElements = document.querySelectorAll("video");
 
 // Add event listeners to each video element
 videoElements.forEach(function (video) {
@@ -21,5 +21,6 @@ videoElements.forEach(function (video) {
   } else {
     // If on a larger screen, remove autoplay attribute
     video.removeAttribute("autoplay");
+    video.removeAttribute("controls");
   }
 });
