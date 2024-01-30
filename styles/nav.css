@@ -6,6 +6,7 @@
   height: 140px;
   background-color: black;
   z-index: 10;
+  transition: all 0.3s ease-in-out;
 }
 
 nav {

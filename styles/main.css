@@ -41,15 +41,35 @@ p {
   font-size: 20px;
 }
 
+.preview-video {
+  display: none;
+}
+
+.preview-image {
+  display: none;
+}
+
 @media only screen and (max-width: 1000px) {
   h1 {
     font-size: 70px;
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .preview-video {
+    display: block;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   h1 {
     font-size: 50px;
+  }
+  .preview-video {
+    display: none;
+  }
+  .preview-image {
+    display: block;
   }
 }
 
