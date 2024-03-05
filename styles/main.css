@@ -19,14 +19,21 @@
 
 :root {
   --accent: #cf0;
-  --white: #ffffff;
+  --black: #000;
+  --gray: #999;
+  --white: #fff;
   --font: "Inju";
+}
+
+::selection {
+  color: var(--black);
+  background-color: var(--accent);
 }
 
 body,
 html {
   color: white;
-  background-color: black;
+  background-color: var(--black);
   scroll-behavior: smooth;
 }
 
