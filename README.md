@@ -1,68 +1,61 @@
 # Personal portfolio 👨‍💻
-![](https://miro.medium.com/v2/resize:fit:1200/1*tWm33yhceKIL22QqOORu2w.png)
+<img width="1440" alt="Screenshot 2024-03-20 at 18 04 35" src="https://github.com/InjuMichorius/personal-portfolio/assets/64601659/a0fba035-7557-4b87-9a81-712532f504cc">
 
-In this project I'll be experimenting with websockets and try to make various games. Learning while having fun.
+This is my most recent portfolio website in which I share my projects.
 
-[Click here for the live demo](descriptive-glass-clownfish.glitch.me/) | [Click here for documentation]([descriptive-glass-clownfish.glitch.me/](https://partychickenking.notion.site/socket-io-613312a1b7d44fae8d99e4fb62631bff?pvs=4))
+[Click here for the live demo](https://injumichorius.github.io/personal-portfolio/)
 
 # Table of Contents 🧭
-1. [Goal](https://github.com/InjuMichorius/socket-io-game?tab=readme-ov-file#goal-)
-2. [Getting started](https://github.com/InjuMichorius/socket-io-game?tab=readme-ov-file#getting-started-)
-3. [Wishlist](https://github.com/InjuMichorius/socket-io-game?tab=readme-ov-file#feature-wishlist--backlog-)
-4. [Practises](https://github.com/InjuMichorius/socket-io-game?tab=readme-ov-file#design-patterns-and-best-practices-)
-5. [Packages](https://github.com/InjuMichorius/socket-io-game?tab=readme-ov-file#packages-used-)
+1. [Goal](https://github.com/InjuMichorius/personal-portfolio?tab=readme-ov-file#goal-)
+2. [Getting started](https://github.com/InjuMichorius/personal-portfolio?tab=readme-ov-file#getting-started-)
+3. [Wishlist](https://github.com/InjuMichorius/personal-portfolio?tab=readme-ov-file#feature-wishlist--backlog-)
+4. [Practises](https://github.com/InjuMichorius/personal-portfolio?tab=readme-ov-file#design-patterns-and-best-practices-)
+5. [Packages](https://github.com/InjuMichorius/personal-portfolio?tab=readme-ov-file#packages-used-)
 
 # Goal 💪🏻
-The goal of ReadEar is to provide it's users with an accessible interface, so they can easily listen to mp3 files. By creating this project im hoping to learn how to make the web a more accessible place!
+The goal of my personal website is to exhibit the projects I have been working on lately.
 
 # Getting started ✨
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ## Technical requirements
-To run this project you'll need [Git](https://git-scm.com/downloads), [Nodejs](https://nodejs.org/en/download/) and any [code editor](https://code.visualstudio.com/download)
+To run this project you'll just need a browser.
 
 ## 📥 Installing
 ### 1. Clone this repository 👯
-Before we can get started, we'll need to clone this repository. We can do this by typing the following line of code in the terminal:
+Before we can get started, we'll need to clone this repository or download the files. We can do this by typing the following line of code in the terminal:
 ```bash
-git clone https://github.com/InjuMichorius/socket-io-game.git
+git clone https://github.com/InjuMichorius/personal-portfolio.git
 ```
-### 2. Install the packages 💻
-First we need to install the used NPM packages.
-```bash
-npm install
-```
-### 3. Start developer environment 🎬
-Now we can run our application, by running the following line of code in your terminal:
-```bash
-npm run dev
-```
-
-### 4. Navigate to localhost 🌐
-Congratulations! If everything works, you should be able to see the application running in your browser. Please note that the port won't always be the same number.
-```
-http://localhost:4242
-```
+Or downloading the files
+### 2. Open html with browser 💻
+Go to the folder and open (for ex.) index.html in your browser
 
 # Feature wishlist / backlog 👑
 Below is a list of features I'd love to add to this application. The features are split up using the **M**o**SC**o**W** method.
 
 **M** - Must haves
 _These features are requirements for the end product_
-- [ ] Creating multiplayer game
+- [x] Reponsive website
+- [x] Hero section
+- [x] Project section
+- [x] Reach out
+- [x] Project detail
 
 **S** - Should haves
 _These features are wanted, but not necessary for a usable product_
-- [ ] Accessible styling
-- [ ] Easy controls for mobile
+- [x] Navigation
+- [x] Accessible standards
+- [x] Mobile friendly
 
 **C** - Could haves
 _These features can be added if there is enough time to do so_
-- [ ] Database that stores all scores
+- [x] Play video on hover
+- [x] Add calendar management like cal.com
 
 **W** - Would haves
 _These features can be added in the future_
-- [ ] Custom outfits
+- [ ] Content for all projects
 
 # Design patterns and Best Practices 👩🏻‍💻
 __Code standards are important__ when working on any project; your code stays *consistent* and is *readable* for everyone. I defined code standards for __HTML__, __CSS__ and __JS__ while working on this project.
@@ -93,4 +86,4 @@ __Code standards are important__ when working on any project; your code stays *c
 * Indentation is always __clear__
 
 # License 🔐
-This project is licensed under the MIT license by © Inju Michorius, 2024. See the [LISENCE.md](https://github.com/InjuMichorius/socket-io-game/blob/main/LICENSE) file for details.
+This project is licensed under the MIT license by © Inju Michorius, 2024. See the [LISENCE.md](https://github.com/InjuMichorius/personal-portfolio/blob/main/LICENSE) file for details.
