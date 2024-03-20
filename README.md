@@ -10,7 +10,6 @@ This is my most recent portfolio website in which I share my projects.
 2. [Getting started](https://github.com/InjuMichorius/personal-portfolio?tab=readme-ov-file#getting-started-)
 3. [Wishlist](https://github.com/InjuMichorius/personal-portfolio?tab=readme-ov-file#feature-wishlist--backlog-)
 4. [Practises](https://github.com/InjuMichorius/personal-portfolio?tab=readme-ov-file#design-patterns-and-best-practices-)
-5. [Packages](https://github.com/InjuMichorius/personal-portfolio?tab=readme-ov-file#packages-used-)
 
 # Goal 💪🏻
 The goal of my personal website is to exhibit the projects I have been working on lately.
